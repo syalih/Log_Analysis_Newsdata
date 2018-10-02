@@ -1,2 +1,2 @@
-# Log_Analysis_Newsdata
+# Log Analysis Newsdata
 Log Analysis - Internal Reporting Tool | Udacity

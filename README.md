@@ -91,6 +91,7 @@ Once you have the data loaded into your database, connect to your database using
 - **"\dt"** — display tables — lists the tables that are available in the database.
 - **"\d"** table — (replace table with the name of a table) — shows the database schema for that particular table.
 - **"\H"** — switch between printing tables in plain text vs. HTML.
+
 Get a sense for what sort of information is in each column of these tables.
 
 The database includes three tables:

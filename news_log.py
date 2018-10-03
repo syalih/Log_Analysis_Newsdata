@@ -14,11 +14,10 @@ def popular_articles():
 
 
 
-
 def popular_article_authors():
 
 
 
-def error_day_percen():
+def error_day_percent():
 
 	

@@ -103,24 +103,24 @@ As you explore the data, you may find it useful to take notes! Don't try to memo
 # Connecting from your code
 The database that you're working with in this project is running PostgreSQL, like the forum database that you worked with in the course. So in your code, you'll want to use the psycopg2 Python module to connect to it, for instance:
 
-- **db = psycopg2.connect("dbname=news")**
-import sqlite3
+```
+import psycopg2
 
-# Fetch some student records from the database.
-db = sqlite3.connect("students")
+db = psycopg2.connect("dbname=students")
 c = db.cursor()
 query = "select name, id from students ORDER BY name;"
 c.execute(query)
 rows = c.fetchall()
 
-# First, what data structure did we get?
 print "Row data:"
 print rows
 
-# And let's loop over it too:
+
 print
 print "Student names:"
 for row in rows:
   print "  ", row[0]
 
 db.close()
+
+```
